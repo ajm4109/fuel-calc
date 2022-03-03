@@ -72,7 +72,7 @@ const Home = () => {
                 onChange={(e) => {
                   setLengthMu(e.currentTarget.value)
                 }}
-                className=" peer h-10 w-52 rounded border-b-2 border-gray-300 px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
+                className=" peer h-10 w-52 rounded border-b-2 border-gray-300 bg-white px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
               >
                 <option value="inch">Inches</option>
                 <option value="cm">Centimeters</option>
@@ -115,7 +115,7 @@ const Home = () => {
                 onChange={(e) => {
                   setWidthMu(e.currentTarget.value)
                 }}
-                className="peer h-10 w-52 rounded border-b-2 border-gray-300 px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
+                className="peer h-10 w-52 rounded border-b-2 border-gray-300 bg-white px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
               >
                 <option value="inch">Inches</option>
                 <option value="cm">Centimeters</option>
@@ -158,7 +158,7 @@ const Home = () => {
                 onChange={(e) => {
                   setDepthMu(e.currentTarget.value)
                 }}
-                className="peer h-10 w-52 rounded border-b-2 border-gray-300 px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
+                className="peer h-10 w-52 rounded border-b-2 border-gray-300 bg-white px-3 text-gray-900 placeholder-transparent shadow focus:outline-none"
               >
                 <option value="cm">Centimeters</option>
                 <option value="inch">Inches</option>
