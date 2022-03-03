@@ -26,9 +26,9 @@ const Home = () => {
         (eqWid - eqDep) * Math.sqrt(2 * eqWid * eqDep - eqDep ** 2))
 
     setVesselVolume(vV.toFixed(3))
-  }
 
-  console.log(vesselVolume)
+    document.getElementById('answer').scrollIntoView()
+  }
 
   return (
     <div className="flex min-h-screen flex-col items-center py-2 px-10">
@@ -190,6 +190,7 @@ const Home = () => {
           </div>
         </form>
         <h2
+          id="answer"
           className={
             vesselVolume === null
               ? 'hidden px-5 pb-3 text-center text-2xl font-bold'
