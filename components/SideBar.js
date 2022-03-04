@@ -14,7 +14,7 @@ const SideBar = () => {
           <h1 className=" text-center text-base">Water Tech</h1>
         </a>
       </Link>
-      <div>
+      <div className=" text-xl">
         <SideBarLink
           link="/fuelCalc"
           icon={<GiFuelTank />}
