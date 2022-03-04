@@ -33,12 +33,12 @@ const fuelCalc = () => {
 
   return (
     <div className="flex">
+      <Head>
+        <title>Fuel Tank Calculator</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Layout />
       <div className="mx-auto flex min-h-screen flex-col items-center py-2 px-10">
-        <Head>
-          <title>Fuel Tank Calculator</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <div>
           <h1 className="my-5 text-4xl">Fuel Calculator</h1>
         </div>
