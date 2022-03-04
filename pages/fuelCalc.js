@@ -32,7 +32,7 @@ const fuelCalc = () => {
   }
 
   return (
-    <div className="flex">
+    <div className="block md:flex">
       <Head>
         <title>Fuel Tank Calculator</title>
         <link rel="icon" href="/favicon.ico" />

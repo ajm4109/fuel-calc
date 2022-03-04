@@ -5,7 +5,7 @@ import { GiFuelTank, GiLeadPipe } from 'react-icons/gi'
 
 const SideBar = () => {
   return (
-    <div className=" h-full min-h-screen min-w-max max-w-2xl bg-slate-700 px-2 py-3 text-white">
+    <div className=" hidden h-full min-h-screen min-w-max max-w-2xl bg-slate-700 px-2 py-3 text-white md:block">
       <Link href="/">
         <a className="mb-8 flex items-center justify-between border-b-2 p-4">
           <div>

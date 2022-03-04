@@ -24,7 +24,7 @@ const hoseVol = () => {
   }
 
   return (
-    <div className="flex">
+    <div className="block md:flex">
       <Head>
         <title>Hose Volume Calculator</title>
         <link rel="icon" href="/favicon.ico" />
@@ -32,7 +32,7 @@ const hoseVol = () => {
       <Layout />
       <div className="mx-auto flex min-h-screen flex-col items-center py-2 px-10">
         <div>
-          <h1 className="my-5 text-4xl">Hose Volume Calculator</h1>
+          <h1 className="my-5 text-center text-4xl">Hose Volume Calculator</h1>
         </div>
         <div className="w-full max-w-4xl rounded border bg-gray-100 px-5 shadow">
           <form
