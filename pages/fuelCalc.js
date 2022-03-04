@@ -28,7 +28,7 @@ const fuelCalc = () => {
 
     setVesselVolume(vV.toFixed(3))
 
-    document.getElementById('answer').scrollIntoView()
+    document.getElementById('userWidth').scrollIntoView()
   }
 
   return (
@@ -192,7 +192,6 @@ const fuelCalc = () => {
             </div>
           </form>
           <h2
-            id="answer"
             className={
               vesselVolume === null
                 ? 'hidden px-5 pb-3 text-center text-2xl font-bold'
