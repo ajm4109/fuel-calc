@@ -24,7 +24,7 @@ const hoseVol = () => {
   }
 
   return (
-    <div className="block md:flex">
+    <div className="mt-24 block md:flex">
       <Head>
         <title>Hose Volume Calculator</title>
         <link rel="icon" href="/favicon.ico" />

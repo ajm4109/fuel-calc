@@ -13,8 +13,8 @@ const Navbar = () => {
   const logoClick = () => setMenuOpen(false)
 
   return (
-    <div className="sticky top-0">
-      <div className="sticky top-0 flex h-20 items-center justify-between bg-white px-6 shadow shadow-black md:hidden">
+    <>
+      <div className="fixed top-0 z-50 flex h-20 w-full items-center justify-between bg-white px-6 shadow shadow-black md:hidden">
         <div>
           <Link href="/">
             <a
@@ -34,12 +34,8 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <div
-        className={
-          menuOpen ? 'relative z-50 md:hidden' : 'relative z-50 hidden'
-        }
-      >
-        <div className="absolute top-0 flex h-full min-h-screen w-full flex-col items-center gap-3 bg-black/80 pt-14 text-3xl text-white">
+      <div className={menuOpen ? 'relative z-40' : 'relative z-40  hidden'}>
+        <div className="fixed top-20 bottom-0 flex  min-h-screen w-full flex-col items-center gap-3 bg-black/80 pt-14 text-3xl text-white backdrop-blur-sm">
           <SideBarLink
             link="/fuelCalc"
             icon={<GiFuelTank />}
@@ -52,7 +48,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

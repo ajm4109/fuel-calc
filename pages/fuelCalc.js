@@ -32,7 +32,7 @@ const fuelCalc = () => {
   }
 
   return (
-    <div className="z-10 block md:flex">
+    <div className=" mt-24 block md:flex">
       <Head>
         <title>Fuel Tank Calculator</title>
         <link rel="icon" href="/favicon.ico" />
@@ -45,7 +45,7 @@ const fuelCalc = () => {
         <div className="w-full max-w-4xl rounded border bg-gray-100 px-5 shadow">
           <form
             onSubmit={calculate}
-            className="flex flex-col items-center pt-5"
+            className=" flex flex-col items-center pt-5"
           >
             <div className="mb-4 space-y-4 md:mb-0 md:flex md:items-baseline md:space-x-4">
               <div className="relative">
