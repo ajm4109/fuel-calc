@@ -20,7 +20,7 @@ const hoseVol = () => {
 
     setHoseVolume(hV.toFixed(3))
 
-    document.getElementById('hoser').scrollIntoView()
+    document.getElementById('len-mu-choices').scrollIntoView()
   }
 
   return (
@@ -143,7 +143,6 @@ const hoseVol = () => {
             </div>
           </form>
           <h2
-            id="hoser"
             className={
               hoseVolume === null
                 ? 'hidden px-5 pb-3 text-center text-2xl font-bold'
