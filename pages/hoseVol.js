@@ -20,7 +20,7 @@ const hoseVol = () => {
 
     setHoseVolume(hV.toFixed(3))
 
-    document.getElementById('len-mu-choices').scrollIntoView()
+    document.getElementById('userDiameter').scrollIntoView()
   }
 
   return (
