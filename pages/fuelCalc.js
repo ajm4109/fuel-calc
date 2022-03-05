@@ -38,7 +38,7 @@ const fuelCalc = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout />
-      <div className="mx-auto mt-24 flex min-h-screen flex-col items-center py-2 px-10">
+      <div className="mx-auto mt-24 flex min-h-screen flex-col items-center py-2 px-10 md:mt-0">
         <div>
           <h1 className="my-5 text-4xl">Fuel Calculator</h1>
         </div>

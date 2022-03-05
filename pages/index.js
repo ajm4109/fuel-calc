@@ -9,7 +9,7 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout />
-      <div className="mx-auto mt-24 flex justify-center p-5">
+      <div className="mx-auto mt-24 flex justify-center p-5 md:mt-0">
         <h1 className="text-center">Welcome to the Water Tech Helper Site</h1>
       </div>
     </div>
